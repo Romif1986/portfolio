@@ -1,0 +1,95 @@
+
+.bg-violet{
+    background-color:rgb(39, 1, 39);
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+i.fa-brands.fa-linkedin-in.fa-2x.text-white:hover{
+background-color:rgb(223, 137, 234) ;
+}
+i.fa-brands.fa-twitter.fa-2x.text-white:hover{
+    background-color:rgb(223, 137, 234) ;   
+}
+i.fa-brands.fa-facebook.fa-2x.text-white:hover{
+    background-color:rgb(223, 137, 234) ; 
+}
+i.fa-solid.fa-user-lock.fa-2x.text-white:hover{
+    background-color:rgb(223, 137, 234) ;
+}
+section.banner{
+    background-image: url(./img/banner4.jpg);
+    width: -100px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position:relative;
+    background-size:contain;
+}
+h1.intro{
+    padding-top: 15%;
+    font-size: 3rem;
+}
+.colorLila{
+    background-image: url(./img/fondo\ lila.jpg);
+    margin-top: 0;
+}
+
+
+.card-img-top{
+    width: 25%;
+    height: 25%;
+    box-shadow: 5px 50px 20px rgb(12, 12, 12);
+   
+}
+.login{
+    height: 70vh;
+}
+.formulario-login{
+    margin-top: 10%;
+    
+}
+
+.registro{
+    height: 70vh;
+}
+.formulario-registro{
+    margin-top: 10%;
+}
+.perfil{
+    width: 70%;
+
+}
+.admin{
+    font-size: 1.2rem;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    
+}
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+    padding: 1rem 0;
+    justify-content: center;
+    display: flex;
+    font-size: 1.25rem;
+}
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+}
+a, a:hover{
+    text-decoration: none;
+    color: rgb(39, 1, 39);
+}
+
+footer.bg-violet{
+    width: 100%;
+    
+}
+
+    
