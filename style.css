@@ -110,6 +110,11 @@ a:hover {
     color: rgb(39, 1, 39);
 }
 
+.text-success {
+    color: #28a745 !important;
+  }
+  
+
 footer.bg-violet {
     width: 100%;
 }
@@ -118,4 +123,4 @@ footer {
     margin-top: auto;
     padding: 20px 0; 
 }
-  
+
