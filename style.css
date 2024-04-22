@@ -1,95 +1,121 @@
+.bg-violet {
+    background-color: rgb(39, 1, 39);
+}
 
-.bg-violet{
-    background-color:rgb(39, 1, 39);
+.list-group {
+    --bs-list-group-bg: transparent;
 }
-.list-group{
-    --bs-list-group-bg:transparent;
+.social-icons {
+    display: flex;
+    flex-direction: row; /* Por defecto es row, pero lo especificamos por claridad */
+    align-items: center; /* Alinea los íconos verticalmente al centro */
 }
-i.fa-brands.fa-linkedin-in.fa-2x.text-white:hover{
-background-color:rgb(223, 137, 234) ;
+
+.social-icons .nav-item {
+    margin-right: 10px; /* Espacio entre los íconos */
 }
-i.fa-brands.fa-twitter.fa-2x.text-white:hover{
-    background-color:rgb(223, 137, 234) ;   
+
+
+i.fa-brands.fa-linkedin-in.fa-2x.text-white:hover,
+i.fa-brands.fa-twitter.fa-2x.text-white:hover,
+i.fa-brands.fa-facebook.fa-2x.text-white:hover,
+i.fa-solid.fa-user-lock.fa-2x.text-white:hover {
+    background-color: rgb(223, 137, 234);
 }
-i.fa-brands.fa-facebook.fa-2x.text-white:hover{
-    background-color:rgb(223, 137, 234) ; 
-}
-i.fa-solid.fa-user-lock.fa-2x.text-white:hover{
-    background-color:rgb(223, 137, 234) ;
-}
-section.banner{
+
+section.banner {
     background-image: url(./img/banner4.jpg);
-    width: -100px;
     height: 100vh;
     background-repeat: no-repeat;
-    position:relative;
-    background-size:contain;
+    position: relative;
+    background-size: cover;
 }
-h1.intro{
-    padding-top: 15%;
+
+h1.intro {
+    padding-top: 15vh;
     font-size: 3rem;
 }
-.colorLila{
-    background-image: url(./img/fondo\ lila.jpg);
-    margin-top: 0;
+.colorLila {
+    background-image: url(./img/colorlila.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 
 
-.card-img-top{
-    width: 25%;
-    height: 25%;
+.card-img-top {
+    width: 100%;
+    height: auto;
     box-shadow: 5px 50px 20px rgb(12, 12, 12);
-   
-}
-.login{
-    height: 70vh;
-}
-.formulario-login{
-    margin-top: 10%;
-    
 }
 
-.registro{
+.login,
+.registro {
     height: 70vh;
 }
-.formulario-registro{
+
+.formulario-login,
+.formulario-registro {
     margin-top: 10%;
 }
-.perfil{
+
+.perfil {
     width: 70%;
+}
 
-}
-.admin{
+.admin {
     font-size: 1.2rem;
-    
 }
-.link{
+
+.link {
     text-decoration: none;
     color: black;
-    
 }
-li.vertical{
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: black; /* Cambiar si deseas un color diferente al pasar el mouse */
+}
+
+
+li.vertical {
     display: block;
     margin: 0;
-    writing-mode: vertical;
+    writing-mode: vertical-rl; /* Cambiado para que funcione en navegadores modernos */
     padding: 1rem 0;
     justify-content: center;
-    display: flex;
     font-size: 1.25rem;
 }
-nav.vertical{
+
+nav.vertical {
     float: left;
     margin-left: 0.5rem;
     margin-top: 1.5rem;
 }
-a, a:hover{
+
+a,
+a:hover {
     text-decoration: none;
     color: rgb(39, 1, 39);
 }
 
-footer.bg-violet{
+footer.bg-violet {
     width: 100%;
-    
 }
 
-    
+footer {
+    margin-top: auto; /* Coloca el pie de página al final del contenedor */
+    padding: 20px 0; /* Espaciado interno */
+}
+  
