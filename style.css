@@ -35,13 +35,7 @@ h1.intro {
     padding-top: 15vh;
     font-size: 3rem;
 }
-.colorLila {
-    background-image: url(./img/colorlila.jpg);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100vh;
-}
+
 
 
 .card-img-top {
