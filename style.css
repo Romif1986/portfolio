@@ -44,15 +44,7 @@ h1.intro {
     box-shadow: 5px 50px 20px rgb(12, 12, 12);
 }
 
-.login,
-.registro {
-    height: 70vh;
-}
 
-.formulario-login,
-.formulario-registro {
-    margin-top: 10%;
-}
 
 .perfil {
     width: 70%;
