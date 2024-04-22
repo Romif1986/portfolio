@@ -7,12 +7,12 @@
 }
 .social-icons {
     display: flex;
-    flex-direction: row; /* Por defecto es row, pero lo especificamos por claridad */
-    align-items: center; /* Alinea los íconos verticalmente al centro */
+    flex-direction: row; 
+    align-items: center;
 }
 
 .social-icons .nav-item {
-    margin-right: 10px; /* Espacio entre los íconos */
+    margin-right: 17px; 
 }
 
 
@@ -31,6 +31,9 @@ section.banner {
     position: relative;
     background-size: cover;
 }
+.colorlila {
+    background-image: url(./img/lila.jpg);
+}
 
 h1.intro {
     padding-top: 15vh;
@@ -40,29 +43,38 @@ h1.intro {
 
 
 .card-img-top {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     box-shadow: 5px 50px 20px rgb(12, 12, 12);
-}
-
-
-
-.perfil {
-    width: 70%;
-}
-
-.admin {
-    font-size: 1.2rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .card-img-top {
+      max-width: 60%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .card-img-top {
+      max-width: 40%;
+    }
 }
 
 .link {
     text-decoration: none;
     color: black;
 }
+
+.carousel-inner {
+    max-width: 600px; 
+    max-height: 400px; 
+    margin: 0 auto;
+  }
+
 .carousel-control-prev,
 .carousel-control-next {
     background-color: black;
-  
+
 }
 
 .carousel-control-prev-icon,
@@ -72,14 +84,14 @@ h1.intro {
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-    background-color: black; /* Cambiar si deseas un color diferente al pasar el mouse */
+    background-color: black; 
 }
 
 
 li.vertical {
     display: block;
     margin: 0;
-    writing-mode: vertical-rl; /* Cambiado para que funcione en navegadores modernos */
+    writing-mode: vertical-rl;
     padding: 1rem 0;
     justify-content: center;
     font-size: 1.25rem;
@@ -102,7 +114,7 @@ footer.bg-violet {
 }
 
 footer {
-    margin-top: auto; /* Coloca el pie de página al final del contenedor */
-    padding: 20px 0; /* Espaciado interno */
+    margin-top: auto;
+    padding: 20px 0; 
 }
   
